@@ -1,0 +1,39 @@
+# Build
+*.lib
+*.dll
+*.pdb
+*.a
+*.dylib
+*.exe
+*.so
+*.obj
+*.o
+*.exp
+*.ilk
+*.res
+*.manifest
+
+build
+
+# Keep obj models in this folder
+!/examples/**/*.obj
+
+# IDE/Editor
+/.vscode
+*.sublime-workspace
+*.code-workspace
+.idea/
+*.swp
+*.swo
+
+# Logs and temp
+/tmp
+*.log
+
+# OS
+**/.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project specific
+ols.json
